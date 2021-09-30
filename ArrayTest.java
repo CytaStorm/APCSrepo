@@ -9,9 +9,12 @@ public class ArrayTest{
         }
         System.out.println("part 1:" + anArray);
         //print the array variable
+		String list = "";
         for (int i = 0; i < anArray.length; i ++) {
-          System.out.print("part 2:" + anArray[i]);
+			list += anArray[i] ;
+			list += " ";
         }
+         System.out.print("part 2:\n" + list);
         //Write a loop to print it out (on one line)
    }
 }
